@@ -20,7 +20,7 @@ With the Python algorithm completed, which takes the raw vote data as a .csv fil
   
     o	Arapahoe County: 24,801 votes cast (6.7% of total votes)
 
-•	Largest County Turnout: **Denver County
+•	Largest County Turnout: **Denver County**
 
 •	Breakdown of total votes count and percentage of total votes by candidate:
 
