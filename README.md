@@ -50,7 +50,7 @@ First, create the tracking variables to capture and hold the state voter turnout
     state_options =[]
     state_votes = {}
 
-Then, looping through the raw data, check if the state name appeared previously in the data. If it did not, add it to the list of state options and begin tracking its count. The index for the row[] function is assuming the State column is the fourth  column on the .csv file. The index can be changed accordingly based on the structure of the raw data.
+Then, looping through the raw data, check if the state name appeared previously in the corresponding data column. If it did not, add it to the list of state options and begin tracking its count. The index for the row[] function is assuming the State column is the fourth  column on the .csv file. The index can be changed accordingly based on the structure of the raw data.
 
     for row in reader:
 
