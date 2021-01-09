@@ -30,7 +30,7 @@ With the Python algorithm completed, which takes the raw vote data as a .csv fil
     
     o	Raymon Anthony Doane: 11,606 votes cast (3.1% of total votes)
 
-•	Winning candidate with vote count and percentage of total votes: **Diana DeGette**. 272,892 votes cast (73.8% of total votes)
+•	Winning candidate with vote count and percentage of total votes: **Diana DeGette. 272,892 votes cast (73.8% of total votes)**
 
 The formatted vote count report deliverable is below:
 
