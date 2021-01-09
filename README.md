@@ -79,3 +79,12 @@ Finally, retrieve the vote count and use conditional logic to determine the stat
                 winning_state = state_name
                 winning_state_percentage = state_votes_percentage
 
+Another situation where the algorithm could be refactored are runoff elections. In elections with runoff rules, one candidate needs to get a minimum percentage of the votes to win. If no candidate reaches that designated percentage, the candidates with the top two vote percentages must face off in another election.  In these situations, to identify whether a runoff is needed, the algorithm would iterate through each candidate in the candidate dictionary and check whether their vote percentage meets that minimum threshold.  The algorithm could then print out to the terminal that a runoff is not needed or designate a runoff-needed Boolean as False. In the example below, it is assumed that the minimum vote percentage threshold is 50% and that a Boolean is needed.
+
+    for candidate_name in candidate_votes:
+        votes = candidate_votes[candidate_name]
+        vote_percentage = float(votes) / float(total_votes) * 100
+            if vote_percentage => 50.00:
+		        Runoff_Need = False
+                
+These are just two of the many examples that the election commission could refactor the algorithm for. The combination of the automation of the analysis and the flexibility of the algorithm to adapt to any future situations makes it clear why Python was the most suitable tool to use.
