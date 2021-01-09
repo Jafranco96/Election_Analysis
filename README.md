@@ -14,18 +14,21 @@ With the Python algorithm completed, which takes the raw vote data as a .csv fil
 
 •	Breakdown of total votes count and percentage of total votes for each precinct county:
 
-  o	Jefferson County: 38,855 votes cast (10.5% of total votes)
+    o	Jefferson County: 38,855 votes cast (10.5% of total votes)
   
-  o	Denver County: 306,055 votes cast (82.8% of total votes)
+    o	Denver County: 306,055 votes cast (82.8% of total votes)
   
-  o	Arapahoe County: 24,801 votes cast (6.7% of total votes)
+    o	Arapahoe County: 24,801 votes cast (6.7% of total votes)
 
 •	Largest County Turnout: Denver County
 
 •	Breakdown of total votes count and percentage of total votes by candidate:
-  o	Charles Casper Stockham: 85,213 votes cast (23.0% of total votes)
-  o	Diana DeGette: 272,892 votes cast (73.8% of total votes)
-  o	Raymon Anthony Doane: 11,606 votes cast (3.1% of total votes)
+
+    o	Charles Casper Stockham: 85,213 votes cast (23.0% of total votes)
+    
+    o	Diana DeGette: 272,892 votes cast (73.8% of total votes)
+    
+    o	Raymon Anthony Doane: 11,606 votes cast (3.1% of total votes)
 
 •	Winning candidate with vote count and percentage of total votes: Diana DeGette: 272,892 votes cast (73.8% of total votes)
 
