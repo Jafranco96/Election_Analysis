@@ -1,2 +1,8 @@
-# Election_Analysis
-Tabulation &amp; Auditing of Colorado Precint Election Results Using Python
+# Election Analysis
+
+## Overview of Project
+
+### Purpose
+
+## Election-Audit Results
+
