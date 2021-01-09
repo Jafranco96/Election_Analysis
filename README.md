@@ -29,7 +29,7 @@ With the Python algorithm completed, which takes the raw vote data as a .csv fil
 The formatted vote count report deliverable is below:
 
 
-<img src = "https://github.com/Jafranco96/Election_Analysis/blob/main/analysis/election_analysis.txt">
+<img src = "https://github.com/Jafranco96/Election_Analysis/blob/main/analysis/election_analysis.PNG">
 
 
 ## Election-Audit Summary
