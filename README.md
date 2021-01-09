@@ -65,10 +65,17 @@ Then, looping through the raw data, check if the state name appeared previously 
 
         state_votes[state_name] += 1
 
-Finally, use conditional logic to determine the state with the greatest turnout.
+Finally, retrieve the vote count and use conditional logic to determine the state with the greatest turnout.
 
-    if (state_votes > winning_state_count) and (state_votes_percentage > winning_state_percentage):
-            winning_state_count = state_votes
-            winning_state = state_name
-            winning_state_percentage = state_votes_percentage
+    for state_name in state_votes:
+
+        state_votes= state_votes.get(state_name)
+            state_votes_percentage = float(state_votes)/float(total_votes) * 100
+            state_results = (
+                f"{state_name}: {state_votes_percentage:.1f}% ({state_votes:,})\n")
+                
+        if (state_votes > winning_state_count) and (state_votes_percentage > winning_state_percentage):
+                winning_state_count = state_votes
+                winning_state = state_name
+                winning_state_percentage = state_votes_percentage
 
