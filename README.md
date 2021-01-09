@@ -10,7 +10,7 @@ A Colorado Board of Elections employee, Tom, has been tasked with auditing the e
 
 With the Python algorithm completed, which takes the raw vote data as a .csv file and outputs the certification summary to a .txt file, the analysis for the congressional precinct results was able to be fully automated. The certification summary, comprised of each component described previously, was as follows:
 
-•	Total votes cast: 369,711
+•	Total votes cast: **369,711**
 
 •	Breakdown of total votes count and percentage of total votes for each precinct county:
 
@@ -20,7 +20,7 @@ With the Python algorithm completed, which takes the raw vote data as a .csv fil
   
     o	Arapahoe County: 24,801 votes cast (6.7% of total votes)
 
-•	Largest County Turnout: Denver County
+•	Largest County Turnout: **Denver County
 
 •	Breakdown of total votes count and percentage of total votes by candidate:
 
@@ -30,7 +30,7 @@ With the Python algorithm completed, which takes the raw vote data as a .csv fil
     
     o	Raymon Anthony Doane: 11,606 votes cast (3.1% of total votes)
 
-•	Winning candidate with vote count and percentage of total votes: Diana DeGette: 272,892 votes cast (73.8% of total votes)
+•	Winning candidate with vote count and percentage of total votes: **Diana DeGette**. 272,892 votes cast (73.8% of total votes)
 
 The formatted vote count report deliverable is below:
 
